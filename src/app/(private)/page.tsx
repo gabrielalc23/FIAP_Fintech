@@ -62,7 +62,7 @@ const mockTransactions = [
  * Dashboard Page
  * Página principal do dashboard usando Atomic Design
  */
-export default function Home(): React.JSX.Element {
+export default function Home(): React.ReactNode {
   const { balance, isVisible, toggleVisibility } = useBalance(4228.76);
 
   const transferSheet = useDrawer();

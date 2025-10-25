@@ -1,5 +1,5 @@
 interface IRegisterLayout {
-  children: React.JSX.Element;
+  children: React.ReactNode;
 }
 
 export default function RegisterLayout({ children }: IRegisterLayout) {

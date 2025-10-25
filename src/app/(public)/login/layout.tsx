@@ -1,5 +1,5 @@
 interface ILoginLayout {
-  children: React.JSX.Element;
+  children: React.ReactNode;
 }
 
 export default function LoginLayout({ children }: ILoginLayout) {
