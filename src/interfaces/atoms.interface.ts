@@ -2,16 +2,9 @@
  * Interfaces para Atoms
  */
 
-import { ButtonHTMLAttributes, InputHTMLAttributes, ReactNode } from "react";
+import { InputHTMLAttributes, ReactNode } from "react";
 
-export interface IButton extends ButtonHTMLAttributes<HTMLButtonElement> {
-  variant?: "default" | "outline" | "ghost" | "destructive" | "secondary" | "link";
-  size?: "default" | "sm" | "lg" | "icon";
-  isLoading?: boolean;
-  leftIcon?: ReactNode;
-  rightIcon?: ReactNode;
-  className?: string;
-}
+
 
 export interface IInput extends InputHTMLAttributes<HTMLInputElement> {
   label?: string;
