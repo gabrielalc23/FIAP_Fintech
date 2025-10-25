@@ -20,10 +20,10 @@ export type ButtonSize =
   | null
   | undefined;
 export interface IButton extends ButtonHTMLAttributes<HTMLButtonElement> {
-  title: string;
-  variant: ButtonVariant;
-  size: ButtonSize;
-  isLoading: boolean;
-  leftIcon: ReactNode;
-  rightIcon: ReactNode;
+  title?: string;
+  variant?: ButtonVariant;
+  size?: ButtonSize;
+  isLoading?: boolean;
+  leftIcon?: ReactNode;
+  rightIcon?: ReactNode;
 }
