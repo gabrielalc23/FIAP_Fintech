@@ -1,9 +1,9 @@
 "use client";
 import { Navbar } from "@/components/organisms";
-import { JSX } from "react";
+import { ReactNode } from "react";
 
 interface IPrivateLayout {
-  children: JSX.Element;
+  children: ReactNode;
 }
 
 export default function PrivateLayout({ children }: IPrivateLayout) {

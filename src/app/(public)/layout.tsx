@@ -2,8 +2,9 @@
 
 import { cn } from "@/lib/utils";
 import { motion } from "framer-motion";
+import { ReactNode } from "react";
 interface IPublicLayout {
-  children: React.ReactNode;
+  children: ReactNode;
 }
 
 export default function PublicLayout({ children }: IPublicLayout) {
